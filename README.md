@@ -15,8 +15,13 @@ def neighbor(X,pt,epsilon):
             N.append(i)
     return N
 
-# input : X is a data list like [ [.5647,.78,.5995,....], [0.9747, 0.898, 0.5995,....], ...] , min_points : minimum number of point to make a Core point , 
+# input : --->
+# X :  is a data list like [ [.5647,.78,.5995,....], [0.9747, 0.898, 0.5995,....], ...] . 
+# individual row define a point in form of n dimentional vector 
+
+# min_points : minimum number of point to make a Core point , 
 # epsilon : minimum distance to form core point
+# <---
 
 # output : labels containing list of cluster label like [1,2,3,1,3,3,-1....] len(X) == len(labels)
     
